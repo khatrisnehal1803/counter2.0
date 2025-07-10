@@ -1,0 +1,33 @@
+ body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f2f5;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+span[data-testid="counter"] {
+  display: block;
+  font-size: 3rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+span[data-testid="odd-or-even"],
+span[data-testid="is-prime"] {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+} 
